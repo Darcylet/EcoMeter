@@ -9,8 +9,8 @@ EcoMeter is a software application designed to help households track and analyze
 EcoMeter was built with OOP principles to ensure scalability, modularity, and maintainability. Below are the core OOP principles applied:
 
 - **Encapsulation:** Key functionalities, such as energy data processing and analytics, are encapsulated within classes, ensuring that data integrity is maintained and only relevant methods have access to sensitive data.
-- **Inheritance:** The project employs inheritance to create specialized classes for different household types (e.g., ApartmentHousehold, DetachedHousehold) that inherit common functionality from a base Household class.
-- **Polymorphism:** Methods such as `calculateEnergyUsage()` are overridden in derived classes to provide tailored calculations based on household type.
+- **Inheritance:** The project employs inheritance to create specialized classes for different appliance types that inherit common functionality from a base Appliances class.
+- **Polymorphism:** Methods such as `displayTip()` are overridden in derived classes to provide tailored calculations based on the tip.
 - **Abstraction:** Core functionalities like data retrieval, energy usage calculation, and reporting are abstracted to simplify complex operations, allowing users to interact seamlessly with the application.
 
 ## III. Chosen Sustainable Development Goal (SDG) and Its Integration
@@ -25,7 +25,6 @@ EcoMeter aligns with **SDG 13: Climate Action**. The application supports this g
 
 ### Prerequisites
 - Java (JDK 11 or higher)
-- Required dependencies (install using `Refer to the `pom.xml` file for Maven dependencies or ensure that required libraries are included in your project setup.`)
 
 ### Steps to Run
 1. Clone the repository:
@@ -49,5 +48,4 @@ EcoMeter aligns with **SDG 13: Climate Action**. The application supports this g
 - Upon launching the application, follow the prompts to input your household's energy consumption data.
 - View detailed reports and recommendations in the dashboard.
 
-For further information or to report issues, please visit the [GitHub repository](https://github.com/Darcylet/EcoMeter).
 
