@@ -1,4 +1,4 @@
-![Alt text](relative%20path/to/img.jpg?raw=true "Logo")
+![Alt text]([relative%20path/to/img.jpg?raw=true "Logo"](https://github.com/Darcylet/EcoMeter/blob/main/logo.png))
 
 # EcoMeter
 
